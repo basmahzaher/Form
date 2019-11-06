@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.divone{
+    background-image: url('../img/Rectangle\ 6.png');
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+    height: 1000px;
+    position: relative;
+}
+
+.over{
+    background-color: rgba(0,0, 0, 0.6);
+    height: 1000px;
+}
+.divtwo{
+    position: absolute;
+    top: 20%;
+    right: 45%;
+}
+label{
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+label:hover{
+    color:  #336274;
+}
+input{
+    background-color: #4b5557;
+    border:none;
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+input:hover{
+    color: #336274;
+}
+form{
+    text-align: center;
+}
+.btn{
+    background: none;
+    border:5px solid #46324B;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 10px 30px;
+    margin: auto;
+}
